@@ -1,0 +1,56 @@
+.header {
+    background-color: coral;
+    min-height: 9vmin;
+    display: flex;
+
+}
+
+body {
+   font-family: cursive;
+   font-size: medium;
+}
+
+body,html {
+    margin: 0;
+    padding: 0;
+    background-color: chocolate;
+}
+
+.projects, .about{
+    margin-right: 10vmin;
+    text-decoration: none;
+}
+
+a{
+    font-size:3vmin; 
+}
+
+.links {
+    margin-left: 5vmin;
+    margin-top: 2vmin;
+    margin-bottom: 2vmin;
+    margin-right: 5vmin;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 0, 0);
+    border: 10px chocolate;
+}
+
+.logo {
+    width: 100px;
+}
+
+.words{
+    margin-left: 10vmin;
+}
+.box{
+    display: flex;
+    height:100vh; 
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 10vw;
+    margin-left:10vw; 
+}
+
